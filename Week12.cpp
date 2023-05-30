@@ -68,14 +68,14 @@ int main() {
     graph[1].push_back({3, 30});
     graph[2].push_back({1, 10});
     graph[2].push_back({3, 12});
-    graph[2].push_back({5, 20});
+    graph[2].push_back({4, 5});
     graph[3].push_back({1, 30});
     graph[3].push_back({2, 12});
     graph[3].push_back({5, 20});
     graph[4].push_back({0, 15});
     graph[4].push_back({2, 5});
     graph[5].push_back({0, 5});
-    graph[5].push_back({4, 20});
+    graph[5].push_back({3, 20});
 
     int minDistance = 0; 
     for (int i = 0; i <= 5; ++i) {
@@ -90,5 +90,5 @@ int main() {
         }
     }
     
-    return 0;
+return 0;
 }
